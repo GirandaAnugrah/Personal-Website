@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+nav {
+  width: 50px;
+  height: 750px;
+  /* float: right; */
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+/* .nav {
+  background-color: #161853;
+  height: 500px;
+  width: 200px;
+  border-radius: 0.25rem;
+} */
+
+.nav ul li {
+  list-style: none;
+  line-height: 60px;
+}
+.nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ffc60f;
+  width: 50px;
+  height: 50px;
+  border-radius: 0.25rem;
+  text-align: center;
+  line-height: 60px;
+  margin: center;
+}
+.nav ul li a:hover {
+  width: 60px;
+  opacity: 0.8;
+}
+#home {
+  /* background-color: #161853; */
+  background-color: #292c6d;
+  height: 750px;
+}
+.judul {
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  box-shadow: 0 0.1px 1px black;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 150px;
+  padding-left: 20px;
+}
+.gambar {
+  width: 25%;
+}
+.gambar img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.info {
+  width: 60%;
+  height: 100%;
+}
+.info h1 {
+  color: #ffc60f;
+  padding: 5px 0;
+}
+.info h2 {
+  font-size: 60px;
+  color: white;
+  padding: 5px 0;
+}
+.info h2 span {
+  color: #ffc60f;
+}
+.info p {
+  color: white;
+  padding: 5px 0;
+}
+.info ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.info ul li {
+  list-style: none;
+}
+.button {
+  height: 40px;
+  width: 10%;
+  background-color: #ffc60f;
+  border-radius: 0.25rem;
+  text-align: center;
+  border: 1px solid gray;
+  margin: 5px 0;
+}
+.button a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  text-decoration: none;
+  color: black;
+  /* font-size: 18px; */
+  box-sizing: border-box;
+}
+.button a:hover {
+  opacity: 0.5;
+}
+/* Css Untuk About */
+#about {
+  /* background-color: #292c6d; */
+  background-color: #161853;
+  height: 750px;
+}
+.me {
+  width: 28%;
+  /* background-image: url(img/me.jpg); */
+}
+.me img {
+  width: 100%;
+}
+.about {
+  width: 50%;
+}
+.about h1 {
+  color: #ffc60f;
+  font-size: 30px;
+  padding: 5px 0;
+}
+.about h3 {
+  color: #ffc60f;
+  padding: 5px 0 10px 0;
+}
+.about h3 marquee {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+.about p {
+  color: white;
+  font-size: 20px;
+}
+.about p span {
+  color: #ffc60f;
+}
+.tombol {
+  height: 40px;
+  width: 15%;
+  background-color: #ffc60f;
+  border-radius: 0.25rem;
+  text-align: center;
+  border: 1px solid gray;
+  margin: 13px 0;
+}
+.tombol a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  text-decoration: none;
+  color: black;
+  /* font-size: 18px; */
+  box-sizing: border-box;
+}
+.tombol a:hover {
+  opacity: 0.5;
+}
+
+/* CSS untuk Project */
+#project {
+  background-color: #292c6d;
+  height: 750px;
+}
+.tulisan {
+  color: #ffc60f;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.mcmproject {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+.card {
+  width: 25%;
+  padding-bottom: 10px;
+  background-color: beige;
+  border-radius: 0.3rem;
+  transition: 0.8s;
+}
+.card img {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+.cardbody {
+  width: 90%;
+  margin: 5px auto;
+}
+.card:hover {
+  transform: scale(1.1, 1.1);
+  content: none;
+}
+.cardbody p {
+  padding-top: 5px;
+  line-height: 25px;
+  opacity: 0.6;
+}
+.view {
+  margin: 5px 0;
+}
+.view a {
+  color: black;
+}
+/* Akhir CSS Project */
+
+/* Awal CSS Contact */
+#contact {
+  background-color: #161853;
+}
+.bodycontact {
+  display: flex;
+  justify-content: space-around;
+  padding: 85px 0 120px 0;
+}
+.kenalan {
+  width: 35%;
+  color: white;
+}
+.kenalan ul li {
+  list-style: none;
+  padding-top: 30px;
+}
+.kenalan ul li p span {
+  color: #ffc60f;
+}
+.form {
+  width: 40%;
+}
+.form form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.form form p {
+  font-size: 18px;
+  color: #ffc60f;
+  margin: 10px 0;
+}
+.form textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  font-size: 13px;
+  font-weight: bold;
+}
+/* Akhir CSS contact */
