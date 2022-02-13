@@ -6,17 +6,10 @@
 nav {
   width: 50px;
   height: 750px;
-  /* float: right; */
   display: flex;
   align-items: center;
   position: fixed;
 }
-/* .nav {
-  background-color: #161853;
-  height: 500px;
-  width: 200px;
-  border-radius: 0.25rem;
-} */
 
 .nav ul li {
   list-style: none;
@@ -38,7 +31,6 @@ nav {
   opacity: 0.8;
 }
 #home {
-  /* background-color: #161853; */
   background-color: #292c6d;
   height: 750px;
 }
@@ -108,7 +100,6 @@ nav {
   line-height: 40px;
   text-decoration: none;
   color: black;
-  /* font-size: 18px; */
   box-sizing: border-box;
 }
 .button a:hover {
@@ -116,13 +107,11 @@ nav {
 }
 /* Css Untuk About */
 #about {
-  /* background-color: #292c6d; */
   background-color: #161853;
   height: 750px;
 }
 .me {
   width: 28%;
-  /* background-image: url(img/me.jpg); */
 }
 .me img {
   width: 100%;
@@ -167,7 +156,6 @@ nav {
   line-height: 40px;
   text-decoration: none;
   color: black;
-  /* font-size: 18px; */
   box-sizing: border-box;
 }
 .tombol a:hover {
@@ -195,20 +183,26 @@ nav {
   padding-bottom: 10px;
   background-color: beige;
   border-radius: 0.3rem;
-  transition: 0.8s;
+  transition: 0.6s;
+  overflow: hidden;
 }
 .card img {
   box-sizing: border-box;
   width: 100%;
   border-radius: 0.3rem 0.3rem 0 0;
+  transition: transform 0.5s ease;
+  object-fit: cover;
+}
+.card img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 .cardbody {
   width: 90%;
   margin: 5px auto;
 }
 .card:hover {
-  transform: scale(1.1, 1.1);
-  content: none;
+  transform: scale(1.06, 1.06);
 }
 .cardbody p {
   padding-top: 5px;
