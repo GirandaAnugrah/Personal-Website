@@ -261,4 +261,19 @@ nav {
   font-size: 13px;
   font-weight: bold;
 }
+.contactfield p {
+  display: block;
+  margin-bottom: 3px;
+}
+.contactfield img{
+  width: 2rem;
+}
+.contactEmail {
+  text-decoration: none;
+  color: white;
+}
+.contactfield {
+  display: flex;
+  align-items: center;
+}
 /* Akhir CSS contact */
